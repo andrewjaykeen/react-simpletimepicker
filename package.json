@@ -1,0 +1,46 @@
+{
+  "name": "react-simpletimepicker",
+  "version": "1.0.0",
+  "description": "A simple time picker React.js component.",
+  "homepage": "https://github.com/andrewjaykeen/react-simpletimepicker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewjaykeen/react-simpletimepicker"
+  },
+  "main": "./SimpleTimePicker.js",
+  "scripts": {
+    "build": "./node_modules/.bin/gulp.cmd",
+    "test": "node node_modules/mocha/bin/mocha tests",
+    "dev": "webpack-dev-server --config example/webpack.config.js --devtool eval --progress --colors --hot --content-base example"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "timepicker"
+  ],
+  "author": "Andy Keen",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=0.13",
+    "react-dom": ">=0.13",
+    "moment": ">=2.8.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-insert": "^0.4.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-webpack": "^1.5.0",
+    "jsdom": "^7.0.2",
+    "mocha": "^2.2.5",
+    "react": ">=0.13",
+    "react-addons-test-utils": ">=0.13",
+    "react-tools": "^0.13.2",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "dependencies": {
+    "object-assign": "^3.0.0",
+    "react": "^15.1.0",
+    "react-onclickoutside": "^4.1.0"
+  }
+}
